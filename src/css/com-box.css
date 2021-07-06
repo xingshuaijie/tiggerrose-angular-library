@@ -1,0 +1,9 @@
+/* form input.ng-invalid-autocomplete-required {
+    border-color: red;
+} */
+
+.angucomplete-dropdown {
+    overflow-y: auto;
+    /* max-height: 150px; */
+    max-height: 350px;
+}

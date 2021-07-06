@@ -1,0 +1,28 @@
+.ui-select-container,
+.ui-select-container * {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.bootstrap-select.btn-group:not(.input-group-btn) {
+    z-index: 999;
+}
+
+.ui-select-container.form-control {
+    border: 0 !important;
+}
+
+.ui-select-bootstrap>.ui-select-choices,
+.ui-select-bootstrap>.ui-select-no-choice {
+    width: auto;
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+    margin-top: -1px;
+    /* max-width: 200px; */
+}
+
+.ui-select-right .dropdown-menu {
+    right: 0 !important;
+    left: auto;
+}

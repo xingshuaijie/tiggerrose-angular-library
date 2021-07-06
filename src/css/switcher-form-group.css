@@ -1,0 +1,4 @@
+ui-switcher[disabled='disabled'] {
+    pointer-events: none;
+    cursor: not-allowed;
+}

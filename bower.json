@@ -1,0 +1,58 @@
+{
+    "name": "tiggerrose-angular-library",
+    "version": "0.0.1",
+    "authors": [
+        "gurihui <rihui.gu@foxmail.com>"
+    ],
+    "description": "tiggerrose angular plug",
+    "dependencies": {
+        "angular": "~1.5.8",
+        "city-picker": "^1.2.0",
+        "angular-ui-grid": "^4.6.2",
+        "smalot-bootstrap-datetimepicker": "^2.4.4",
+        "angular-ui-select": "^0.19.6"
+    },
+    "main": [
+        "src/locales/bootstrap-datetimepicker.zh-CN.js",
+        "src/directive/tiggerrose.model.js",
+        "src/directive/select-form-group.js",
+        "src/directive/datepicker-form-group.js",
+        "src/directive/region-form-group.js",
+        "src/directive/region-picker.js",
+        "src/directive/textarea-form-group.js",
+        "src/directive/text-form-group.js",
+        "src/directive/text-phone.js",
+        "src/directive/gridCtrl.js",
+        "src/directive/grid.js",
+        "src/directive/date-picker.js",
+        "src/directive/switcher-form-group.js",
+        "src/directive/radio-form-group.js",
+        "src/directive/angucomplete-alt/angucomplete-alt.js",
+        "src/directive/angucomplete-alt/angucomplete-alt.css",
+        "src/directive/com-box.js",
+        "src/directive/ui-grid-row.js",
+        "src/services/uiGridService.js",
+        "src/services/alterModal.js",
+        "src/filters/utilFilter.js",
+        "src/css/city-picker/city-picker.css",
+        "src/css/city-picker/images/drop-arrow.png",
+        "src/css/radio-form-group.css",
+        "src/css/select-form-group.css",
+        "src/css/ui-grid.css",
+        "src/css/switcher-form-group.css",
+        "src/css/com-box.css"
+    ],
+    "private": false,
+    "keywords": [
+        "tiggerrose-angular-library"
+    ],
+    "license": "MIT",
+    "homepage": "http://tigerrose@58.247.113.146:1010/r/tigerrose/angular-library-com.git",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

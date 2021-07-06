@@ -1,0 +1,16 @@
+.radio-controls>.radio-items {
+    display: block;
+}
+
+.radio-controls .custom-radio {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.radio-items.has-error label>span:before {
+    border: 1px solid #ed7878;
+}
+
+.radio-items.has-error label>span {
+    color: #ed7878 !important;
+}
